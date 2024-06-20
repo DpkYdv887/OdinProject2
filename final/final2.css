@@ -1,0 +1,169 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #f9faf8;
+    background-color: #1f2937;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px 100px 20px;
+    background-color: #1f2937;
+  }
+  
+  .hero-content {
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    color: #f9faf8;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 24px;
+  }
+  
+  .hero-image {
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .sign-up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Content section styles */
+  .content {
+    padding: 40px 20px;
+    background-color: rgb(237, 247, 228);
+    color: #1f2937;
+  }
+  
+  .content h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 40px;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .card {
+    width: 200px;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+  }
+  
+  .card-image {
+    width: 150px;
+    height: 150px;
+    background-color: #09317b;
+    margin-bottom: 16px;
+  }
+  
+  /* Quote section styles */
+  .quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 80px 20px;
+  }
+  
+  .quote blockquote {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+  }
+  
+  .quote cite {
+    display: block;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+  
+  /* Call to action section styles */
+  .call-to-action {
+    background-color: #3882f6;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 20px;
+    border-radius: 5px;
+  }
+  
+  .cta-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .cta-content p {
+    font-size: 18px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
